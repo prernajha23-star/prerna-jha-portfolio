@@ -2,7 +2,7 @@
 
 📍 West Lafayette, IN  
 🎓 M.S. in Business Analytics & Information Management, Purdue University  
-💼 Product Management | Product Analytics | Data and AI Driven Decision Making  
+💼 Product Management | Product Analytics | Data-Driven Decision Making  
 
 ---
 
@@ -29,7 +29,7 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 
 ## Featured Projects
 
-### 1. Retention & Cohort Analysis (Gaming)
+### 1️⃣ Retention & Cohort Analysis (Gaming)
 **Focus:** Understanding churn drivers and improving long-term engagement  
 - Built cohort-based retention analysis using SQL and Python  
 - Identified behavioral drop-offs across user lifecycle stages  
@@ -39,7 +39,7 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 
 ---
 
-### 2. Experimentation & A/B Testing Framework
+### 2️⃣ Experimentation & A/B Testing Framework
 **Focus:** Data-driven feature and monetization decisions  
 - Designed controlled experiments and success metrics  
 - Analyzed lift on engagement, conversion, and retention  
@@ -49,7 +49,7 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 
 ---
 
-### 3. Predictive Financial Risk Modeling
+### 3️⃣ Predictive Financial Risk Modeling
 **Focus:** ML-driven decision support  
 - Built LightGBM and XGBoost models to assess firm-level financial risk  
 - Evaluated model performance and business implications  
@@ -59,7 +59,7 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 
 ---
 
-### 4. Causal Marketing & Retention Analytics
+### 4️⃣ Causal Marketing & Retention Analytics
 **Focus:** Measuring true impact of incentives and campaigns  
 - Applied causal inference techniques to isolate treatment effects  
 - Modeled incentive strategies using Python  
@@ -69,7 +69,7 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 
 ---
 
-### 5. Product Strategy & Technology Adoption Analysis
+### 5️⃣ Product Strategy & Technology Adoption Analysis
 **Focus:** Strategic evaluation of emerging technologies  
 - Analyzed Google Glass and Apple Newton adoption challenges  
 - Assessed product–market fit, scalability constraints, and ecosystem readiness  
@@ -82,5 +82,33 @@ I am currently pursuing a Master’s degree in Business Analytics at Purdue Univ
 ## Professional Experience Snapshot
 
 - **Senior Product Manager — Moonglabs**
-  - S
+  - Scaled platform to 10M+ users with 42% DAU growth
+  - Delivered 15+ features using analytics-driven prioritization
+  - Achieved 15% retention uplift and incremental revenue growth
+
+- **Senior Product Manager — Studio nCore**
+  - Improved retention by 25% across multiple game titles
+  - Optimized funnels and acquisition flows using SQL analytics
+  - Strengthened telemetry-driven post-launch reviews
+
+- **Senior Product Manager — JetSynthesys**
+  - Supported 42% DAU growth and 1M+ downloads
+  - Drove monetization strategy through behavioral segmentation
+
+---
+
+## Education
+
+**Purdue University**  
+M.S. Business Analytics & Information Management (GPA: 3.7/4.0)
+
+**Savitribai Phule Pune University**  
+B.E. Electronics & Telecommunications
+
+---
+
+## Contact
+
+- 📧 Email: jha97@purdue.edu  
+- 🔗 LinkedIn: https://linkedin.com/in/prernajha23  
 
