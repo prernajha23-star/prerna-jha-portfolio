@@ -1,114 +1,95 @@
-# Prerna Jha — Portfolio
+# 👋 Hi, I’m Prerna Jha
 
-📍 West Lafayette, IN  
-🎓 M.S. in Business Analytics & Information Management, Purdue University  
-💼 Product Management | Product Analytics | Data-Driven Decision Making  
+**Product & Data Analytics Professional**  
+MS in Business Analytics and Information Management (MS - BAIM), Purdue University  
+8+ years of industry experience across product management, analytics, and data-driven decision-making
 
----
-
-## About Me
-
-I am a Product Manager with 8+ years of experience driving data-informed growth across gaming and consumer platforms. I have led high-scale products to 10M+ users by combining analytics, experimentation, and cross-functional execution.  
-
-I am currently pursuing a Master’s degree in Business Analytics at Purdue University, where I am strengthening my skills in advanced analytics, experimentation, and predictive modeling. This portfolio showcases selected projects that reflect how I use data to inform product and business decisions.
+I specialize in translating complex data into **clear business insights, predictive systems, and strategic recommendations**.  
+My work sits at the intersection of **machine learning, enterprise analytics, and product strategy**, shaped by hands-on experience building and scaling data-informed products in industry.
 
 ---
 
-## Core Skills
+## 🚀 Featured Projects
 
-- Product Strategy & Roadmapping  
-- Product Analytics & KPI Design  
-- Experimentation & A/B Testing  
-- Cohort, Funnel & Retention Analysis  
-- Growth & Monetization Strategy  
-- SQL, Python  
-- Data Visualization & Storytelling  
-- Cross-Functional Leadership  
+### 🔹 Predictive Financial Risk Modeling
+**Focus:** Machine Learning, Risk Analytics, Credit Decision Support  
 
----
+Built predictive models using **LightGBM and XGBoost** to assess firm-level financial risk.  
+The project emphasizes **robust validation, ensemble modeling, and business interpretability** to support credit and portfolio risk decisions.
 
-## Featured Projects
+Key elements include:
+- Feature engineering for structured financial data  
+- Multi-seed stratified cross-validation  
+- Ensemble blending optimized for AUC stability  
+- Business interpretation of model outputs  
 
-### 1️⃣ Retention & Cohort Analysis (Gaming)
-**Focus:** Understanding churn drivers and improving long-term engagement  
-- Built cohort-based retention analysis using SQL and Python  
-- Identified behavioral drop-offs across user lifecycle stages  
-- Translated insights into product recommendations to improve retention  
-
-📂 Repo: `retention-cohort-analysis`
+🔗 Repository:  
+https://github.com/prernajha23-star/predictive-financial-risk-modeling
 
 ---
 
-### 2️⃣ Experimentation & A/B Testing Framework
-**Focus:** Data-driven feature and monetization decisions  
-- Designed controlled experiments and success metrics  
-- Analyzed lift on engagement, conversion, and retention  
-- Emphasized statistical rigor and decision-making tradeoffs  
+### 🔹 Enterprise Data Forecasting & Strategy
+**Focus:** SQL, Data Modeling, Forecasting, Strategic Planning  
 
-📂 Repo: `ab-testing-experimentation`
+Leveraged **SQL-driven analytics and structured data modeling** to transform organizational data into actionable forecasts supporting enterprise planning and growth decisions.
 
----
+This project demonstrates how analytics can directly inform:
+- Strategic planning and resource allocation  
+- Trend identification and forward-looking forecasts  
+- Executive-level decision support  
 
-### 3️⃣ Predictive Financial Risk Modeling
-**Focus:** ML-driven decision support  
-- Built LightGBM and XGBoost models to assess firm-level financial risk  
-- Evaluated model performance and business implications  
-- Applied insights to credit decision workflows and portfolio risk mitigation  
-
-📂 Repo: `financial-risk-modeling`
+🔗 Repository:  
+https://github.com/prernajha23-star/enterprise-data-forecasting-strategy
 
 ---
 
-### 4️⃣ Causal Marketing & Retention Analytics
-**Focus:** Measuring true impact of incentives and campaigns  
-- Applied causal inference techniques to isolate treatment effects  
-- Modeled incentive strategies using Python  
-- Generated ~$3.4M in projected revenue impact  
+### 🔹 Technology Adoption & Product Strategy Analysis
+**Focus:** Product Strategy, Market Fit, Technology Adoption  
 
-📂 Repo: `causal-marketing-analytics`
+Conducted a case-based strategic analysis of **Google Glass and Apple Newton** to understand why innovative technologies fail to achieve mass adoption.
 
----
+The analysis evaluates:
+- Product–market fit and timing  
+- Adoption and scalability barriers  
+- Ecosystem readiness and strategic spillovers  
 
-### 5️⃣ Product Strategy & Technology Adoption Analysis
-**Focus:** Strategic evaluation of emerging technologies  
-- Analyzed Google Glass and Apple Newton adoption challenges  
-- Assessed product–market fit, scalability constraints, and ecosystem readiness  
-- Connected strategic decisions to market outcomes  
+The project highlights how early product failures can still generate **long-term competitive advantage** when insights are reused effectively.
 
-📂 Repo: `product-strategy-case-studies`
+🔗 Repository:  
+https://github.com/prernajha23-star/technology-adoption-product-strategy
 
 ---
 
-## Professional Experience Snapshot
+## 🧠 Core Skill Areas
 
-- **Senior Product Manager — Moonglabs**
-  - Scaled platform to 10M+ users with 42% DAU growth
-  - Delivered 15+ features using analytics-driven prioritization
-  - Achieved 15% retention uplift and incremental revenue growth
-
-- **Senior Product Manager — Studio nCore**
-  - Improved retention by 25% across multiple game titles
-  - Optimized funnels and acquisition flows using SQL analytics
-  - Strengthened telemetry-driven post-launch reviews
-
-- **Senior Product Manager — JetSynthesys**
-  - Supported 42% DAU growth and 1M+ downloads
-  - Drove monetization strategy through behavioral segmentation
+- Machine Learning & Predictive Modeling  
+- Data Analytics & SQL  
+- Forecasting & Decision Support  
+- Product Strategy & Market Analysis  
+- Business Communication & Storytelling  
 
 ---
 
-## Education
+## 🎓 Education
 
 **Purdue University**  
-M.S. Business Analytics & Information Management (GPA: 3.7/4.0)
-
-**Savitribai Phule Pune University**  
-B.E. Electronics & Telecommunications
+Master of Science in Business Analytics (MSBA)
 
 ---
 
-## Contact
+## 📫 Connect with Me
 
-- 📧 Email: jha97@purdue.edu  
-- 🔗 LinkedIn: https://linkedin.com/in/prernajha23  
+- GitHub: https://github.com/prernajha23-star  
+- LinkedIn: *(add your LinkedIn URL)*  
 
+---
+
+## 📌 What I’m Looking For
+
+I’m interested in roles that combine **data, analytics, and strategic thinking**, including:
+- Product Analytics  
+- Data Science / Applied Machine Learning  
+- Strategy & Decision Analytics  
+- Business Intelligence  
+
+Thanks for visiting my portfolio.
