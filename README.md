@@ -1,95 +1,137 @@
-# 👋 Hi, I’m Prerna Jha
+# 👋 Hi, I'm Prerna Jha
 
-**Product & Data Analytics Professional**  
-MS in Business Analytics and Information Management (MS - BAIM), Purdue University  
-8+ years of industry experience across product management, analytics, and data-driven decision-making
+**Senior Product Manager · Data Analyst · Agentic AI**
 
-I specialize in translating complex data into **clear business insights, predictive systems, and strategic recommendations**.  
-My work sits at the intersection of **machine learning, enterprise analytics, and product strategy**, shaped by hands-on experience building and scaling data-informed products in industry.
+M.S. Business Analytics & Information Management, Purdue University (GPA 3.8 · Aug 2026)
+Teaching & Research Assistant: Data Visualization and Big Data Tools
+
+8+ years scaling consumer platforms, audience data products, and agentic AI systems — delivering **$3.4M+ revenue impact** through data-informed strategy, A/B experimentation, and cross-functional leadership.
+
+I build things from 0 to 1: multiplayer platforms, production-grade agentic AI systems, fraud detection pipelines, and AI interview prep tools. I bring hands-on technical depth (LangChain, RAG, Spark, SQL, Python) directly into product decisions.
+
+📍 West Lafayette, IN · Willing to relocate · [linkedin.com/in/prernajha23](https://www.linkedin.com/in/prernajha23) · [prernajhapurdue@gmail.com](mailto:prernajhapurdue@gmail.com)
+
+---
+
+## 📊 Impact at a Glance
+
+| Metric | Value |
+|---|---|
+| Users Scaled | 10M+ |
+| DAU Growth | 42% |
+| Revenue Impact | $3.4M+ |
+| Engagement Lift via Agentic AI | 73% |
+| Retention Uplift | 15% |
+| Fill Rate (Ad Tech) | 95% |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔹 Predictive Financial Risk Modeling
-**Focus:** Machine Learning, Risk Analytics, Credit Decision Support  
+### 🤖 AI-Driven Product Selection for E-Commerce Advertising
+**Course:** MGMT 687: AI for Business Decision · Purdue University
 
-Built predictive models using **LightGBM and XGBoost** to assess firm-level financial risk.  
-The project emphasizes **robust validation, ensemble modeling, and business interpretability** to support credit and portfolio risk decisions.
+Built a multimodal ensemble (XGBoost + GPT-4o) to predict which products to advertise on a budget-constrained e-commerce platform. GPT-4o extracts 14 structured visual features per product (visual appeal, trend alignment, perceived quality); ablation study confirms LLM features drive **+18.1% F1 lift** over title-only features. Ensemble precision improved **46%** over XGBoost alone — directly reducing wasted ad spend.
 
-Key elements include:
-- Feature engineering for structured financial data  
-- Multi-seed stratified cross-validation  
-- Ensemble blending optimized for AUC stability  
-- Business interpretation of model outputs  
-
-🔗 Repository:  
-https://github.com/prernajha23-star/predictive-financial-risk-modeling
+- **AUC-ROC:** 0.8054 | **F1:** 0.6538 | **Precision lift:** +46% vs XGBoost alone
+- **Stack:** XGBoost · GPT-4o · SHAP · scikit-learn · Python · 331 SKUs
 
 ---
 
-### 🔹 Enterprise Data Forecasting & Strategy
-**Focus:** SQL, Data Modeling, Forecasting, Strategic Planning  
+### 🔍 Financial Fraud Detection at Scale
+**Course:** Big Data Analytics & MLOps · Purdue University
 
-Leveraged **SQL-driven analytics and structured data modeling** to transform organizational data into actionable forecasts supporting enterprise planning and growth decisions.
+Production-scale fraud detection system on Apache Spark 4.1 and Databricks Serverless, applied to the IEEE-CIS dataset with 590K+ e-commerce transactions across 400+ features. Six-phase pipeline: problem framing → ingestion → EDA → modeling → MLOps → business insights. XGBoost champion model delivered best-in-class AUC with Delta Lake architecture.
 
-This project demonstrates how analytics can directly inform:
-- Strategic planning and resource allocation  
-- Trend identification and forward-looking forecasts  
-- Executive-level decision support  
-
-🔗 Repository:  
-https://github.com/prernajha23-star/enterprise-data-forecasting-strategy
+- **AUC-ROC:** 0.9460 | **Fraud Capture Rate:** 86.7% @ threshold 0.40 | **Projected ROI:** $1.45M annual
+- **Stack:** Apache Spark 4.1 · Databricks · XGBoost · MLflow · Delta Lake · 590K rows
 
 ---
 
-### 🔹 Technology Adoption & Product Strategy Analysis
-**Focus:** Product Strategy, Market Fit, Technology Adoption  
+### 🏪 Multi-Product Inventory Optimization Agent
+**Course:** MGMT 590-037: AI-Enhanced Optimization · Purdue University
 
-Conducted a case-based strategic analysis of **Google Glass and Apple Newton** to understand why innovative technologies fail to achieve mass adoption.
+Five-component agentic AI system that converts a natural-language inventory problem into optimal per-SKU order quantities. LLM parser (C1) → data prep (C2) → demand forecasting with Normal/Neg-Binomial distributions (C3) → SAA optimization engine with SLSQP solver (C4) → plain-language explanation and sensitivity analysis (C5). Targets ≥92% fill rate under budget and storage constraints using Walmart M5 data.
 
-The analysis evaluates:
-- Product–market fit and timing  
-- Adoption and scalability barriers  
-- Ecosystem readiness and strategic spillovers  
-
-The project highlights how early product failures can still generate **long-term competitive advantage** when insights are reused effectively.
-
-🔗 Repository:  
-https://github.com/prernajha23-star/technology-adoption-product-strategy
+- **Dataset:** Walmart M5 · 15 SKUs · 104 weeks | **Scenarios:** 1,000 Monte Carlo
+- **Stack:** LangChain · Claude API · Python · SLSQP · SAA · scipy
 
 ---
 
-## 🧠 Core Skill Areas
+### 📈 Predictive Financial Risk Modeling
+ML models (LightGBM, XGBoost) for firm-level financial risk assessment. Combined causal inference and SQL segmentation to measure how product changes drive DAU, retention, and monetization. Built ML+LLM pipeline (XGBoost + GPT-4o) for predictive engagement modeling.
 
-- Machine Learning & Predictive Modeling  
-- Data Analytics & SQL  
-- Forecasting & Decision Support  
-- Product Strategy & Market Analysis  
-- Business Communication & Storytelling  
+- **Revenue impact:** $3.4M projected | **AUC-ROC:** 0.805 | **F1:** 0.654 | **Lift:** +18% over baseline
+- **Stack:** LightGBM · XGBoost · GPT-4o · Python · SQL · Causal Inference
+- 🔗 [View repo](https://github.com/prernajha23-star/predictive-financial-risk-modeling)
+
+---
+
+### 🎤 ETB — AI Mock Interview Platform
+**Course:** Emerging Tech in Business · Purdue University
+
+Full-stack AI interview prep platform built from scratch. LangChain + FastAPI backend with ChromaDB for session-scoped memory and personalization. Rubric-based scoring across behavioral, technical, and case interview modes. Pre/post-generation guardrails, optional voice endpoints (Whisper STT/TTS), and split deployment (Render API + Streamlit Cloud UI).
+
+- **Stack:** LangChain · FastAPI · ChromaDB · Streamlit · Hugging Face · Whisper
+- 🔗 [Live App](https://etbinterview.streamlit.app/) · [GitHub](https://github.com/jha97-bit/ETB)
+
+---
+
+### 📊 Enterprise Data Forecasting & Strategy
+SQL-driven analytics and forecasting to support strategic planning and executive decision support. Applied cohort analysis and causal inference to identify retention and revenue levers.
+
+- **Stack:** SQL · Python · Forecasting · Cohort Analysis
+- 🔗 [View repo](https://github.com/prernajha23-star/enterprise-data-forecasting-strategy)
+
+---
+
+### 📱 Technology Adoption Product Strategy
+Case-based analysis of Google Glass and Apple Newton to assess market fit, adoption barriers, and product-market timing. Applied structured PM frameworks to evaluate go-to-market strategy failures and lessons.
+
+- 🔗 [View repo](https://github.com/prernajha23-star/technology-adoption-product-strategy)
+
+---
+
+## 💼 Professional Experience
+
+**Senior Product Manager — Moonglabs** *(Aug 2022 – May 2024)*
+Owned end-to-end product vision for a 10M+ user F2P platform. Launched Multiplayer Mode from 0-to-1. Built production-grade agentic AI platform (LangChain, RAG, n8n, MCP). Drove 42% DAU growth, 15% retention uplift, 73% engagement lift, 34% revenue uplift.
+
+**Senior Product Manager — Studio nCore** *(Feb 2021 – Jul 2022)*
+Owned roadmap across F2P titles. Mentored PMs and analysts. Managed CCPA/GDPR compliance. Drove 25% retention growth, 20% DAU growth, 18% install-to-active conversion improvement.
+
+**Senior Product Manager — Jetsynthesys** *(Mar 2018 – Feb 2021)*
+Led two 0-to-1 F2P titles with 1M+ downloads and 42% DAU growth. Designed virtual currency systems and live ops monetization. Ensured CCPA/GDPR compliance. 34% revenue uplift.
+
+**Product Manager — Reliance Games | Talentica Software | Audience Science** *(Oct 2011 – Mar 2018)*
+Built B2B audience data platform (CDP/DMP): CTR +15%, eCPM +20%, fill rates +30%. Built analytics and campaign reporting for mobile ad networks (DSP/SSP). Drove 50% revenue uplift and 95% fill rate at Reliance Games.
+
+---
+
+## 🛠️ Skills
+
+**Product:** Strategy · Roadmapping · 0-to-1 Development · A/B Testing · KPI & OKR Design · Go-to-Market · Agile/Scrum · Partner Management · Privacy Compliance (CCPA, GDPR)
+
+**Analytics:** SQL · Python · Cohort Analysis · Funnel Diagnostics · Causal Inference · Behavioral Segmentation · BigQuery · Tableau · Firebase · Mixpanel · Amplitude · AppsFlyer
+
+**AI & ML:** LangChain · RAG Pipelines · n8n · MCP Architecture · Prompt Engineering · FastAPI · XGBoost · LightGBM · SHAP · Apache Spark · MLflow · ChromaDB · GPT-4o
+
+**Growth & Ad Tech:** Experimentation · CDP/DMP · DSP/SSP · Virtual Economies · Live Ops · eCPM Optimization
+
+**Tools:** Figma · Miro · Jira · Confluence · Google Analytics · Streamlit · Excel
 
 ---
 
 ## 🎓 Education
 
-**Purdue University**  
-Master of Science in Business Analytics (MSBA)
+**Purdue University, Daniels School of Business** — M.S. Business Analytics & Information Management · GPA 3.8/4.0 · Expected Aug 2026
+*Teaching Assistant & Research Assistant: Data Visualization and Big Data Tools and Technologies*
+
+**Savitribai Phule Pune University** — B.E. Electronics & Telecommunications · 2011
 
 ---
 
-## 📫 Connect with Me
+## 🌱 Leadership
 
-- GitHub: https://github.com/prernajha23-star  
-- LinkedIn: *(add your LinkedIn URL)*  
-
----
-
-## 📌 What I’m Looking For
-
-I’m interested in roles that combine **data, analytics, and strategic thinking**, including:
-- Product Analytics  
-- Data Science / Applied Machine Learning  
-- Strategy & Decision Analytics  
-- Business Intelligence  
-
-Thanks for visiting my portfolio.
+- **Secretary, Rotaract Club** (2009–2011): Education initiatives for 100+ women in rural communities
+- **Volunteer, Oxygen Movement NGO** (2004–2007): Education programs for underprivileged communities
